@@ -21,4 +21,10 @@ dependencyResolutionManagement {
 
 rootProject.name = "Music room"
 include(":app")
- 
+include(":core")
+include(":core:ui")
+include(":feature")
+include(":feature:player")
+include(":feature:auth")
+include(":core:data")
+include(":feature:profile")
